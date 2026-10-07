@@ -187,6 +187,9 @@ button:focus-visible {
   color: #0F1B2D;
 }
 
+.logo-footer{
+  color : white;
+}
 .logo::after {
   content: "";
   width: 10px;
@@ -551,4 +554,7 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+.formulaire input,label{
+  display: block;
 }

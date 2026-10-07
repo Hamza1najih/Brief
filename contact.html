@@ -40,26 +40,32 @@
 
         <div class="apropos-texte">
           <h2 style="text-align: center;">Contacter Nous</h2>
-          <form style="text-align: center;">
-            <label for="name" ; style="text-align: center;"><b>First name :</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="last"><b>Last name :</label><br>
-            <input type="text" id="last" name="last"><br>
-            <label for="email"><b>Email :</label><br>
-            <input type="text" id="email" name="email"><br>
+          <form class="formulaire"><center>
+            <label for="name" ; style="text-align: center;"><b>First name :</label>
+            <input type="text" id="name" name="name"style="border:2px solid orange ;border-radius: 20px">
+            <label for="last"><b>Last name :</label>
+            <input type="text" id="last" name="last"style="border:2px solid orange ;border-radius: 20px">
+            <label for="email"><b>Email :</label>
+            <input type="email" id="email" name="email"style="border:2px solid orange ;border-radius: 20px">
+            <label for="commentaire"><b>Commentaire :</label>
+            <textarea style="border:2px solid orange ;border-radius: 40px; height: 90px;"></textarea>
             <input type="submit" value="Valider">
+            </center>
           </form>
         </div>
       </div>
     </section>
   </main>
-
   <footer class="pied-de-page">
     <div class="conteneur">
 
       <div class="pied-haut">
         <div>
-          <p class="logo logo-clair">Élan Fitness</p>
+          <div class="logo-div">
+            <a href="#" class="logo logo-footer">
+              <img src="img/run_logo.jpg" alt="Menu" class="menu-icone" id="menu-icone" style="width:30px;height:30px;">
+              Élan Fitness</a>
+          </div>
           <p class="slogan">Ton énergie, ton rythme.</p>
         </div>
 
