@@ -314,13 +314,15 @@ button:focus-visible {
 }
 
 .apropos-contenu {
-  display: flex;
   align-items: center;
   gap: 64px;
 }
 
 .apropos-texte {
-  flex: 7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
 }
 
 .apropos-texte h2 {
@@ -555,6 +557,21 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.form{
+  background-color: #FF6B2C;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
 .formulaire input,label{
   display: block;
 }
+
+.pic_support{
+  margin-left: 56px;
+  height: 450px;
+  width: 420px;
+  box-shadow: 5px 10px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
