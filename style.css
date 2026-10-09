@@ -314,16 +314,15 @@ button:focus-visible {
 }
 
 .apropos-contenu {
+  display: flex;
   align-items: center;
   gap: 64px;
 }
 
 .apropos-texte {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 15px;
+  flex: 7;
 }
+
 
 .apropos-texte h2 {
   font-size: 36px;
